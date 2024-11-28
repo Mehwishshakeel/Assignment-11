@@ -6,7 +6,9 @@ const ChildComponent = (props:any) => {
     <div>
       <div></div>
       <h1 className='text-center  m-12'>
+        {props.fullName}
         {props.FvtDish}
+        {props.FvtColor}
       </h1>
      
     </div>
